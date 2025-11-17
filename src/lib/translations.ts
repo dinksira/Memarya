@@ -4,15 +4,15 @@ export type Language = 'am' | 'en';
 // Then export the translations
 export const translations = {
   // Platform
-  challenges: {
+  platform_challenges: {  // Changed from 'challenges'
     en: 'Challenges',
     am: 'ስግተቶች'
   },
-  search_lessons: {
+  search_challenges: {    // Changed from 'search_lessons'
     en: 'Search challenges',
     am: 'ስግተቶችን ፈልግ'
   },
-  all_lessons: {
+  all_challenges: {       // Changed from 'all_lessons'
     en: 'All Challenges',
     am: 'ሁሉም ስግተቶች'
   },
@@ -34,7 +34,7 @@ export const translations = {
     am: 'ትምህርቶች',
     en: 'Lessons'
   },
-  challenges: {
+  challenges: {           // This is the navigation item
     am: 'ፈተናዎች',
     en: 'Challenges'
   },
@@ -120,7 +120,7 @@ export const translations = {
   },
   
   // Lessons Page
-  all_lessons: {
+  all_lessons: {          // This is for lessons page
     am: 'ሁሉም ትምህርቶች',
     en: 'All Lessons'
   },
@@ -132,7 +132,7 @@ export const translations = {
     am: 'ሁሉም ደረጃዎች',
     en: 'All Levels'
   },
-  search_lessons: {
+  search_lessons: {       // This is for lessons page
     am: 'ትምህርቶችን ፈልግ',
     en: 'Search lessons'
   },
